@@ -17,7 +17,7 @@ public class FileDownloadRandomAccessFile implements FileDownloadOutputStream {
 //         randomAccess = new RandomAccessFile(file, "rw");
 //         fd = randomAccess.getFD();
 //         out = new BufferedOutputStream(new FileOutputStream(randomAccess.getFD()));
-        
+        //change it
          FileOutputStream fos = new FileOutputStream(file);
             outputStream = new BufferedOutputStream(fos);
             fileDescriptor = fos.getFD(); 
